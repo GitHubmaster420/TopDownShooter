@@ -202,10 +202,20 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 490964876487218701, guid: 56f0c47e1cd0f7a46b839f7e6758fd53,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 490964876487218701, guid: 56f0c47e1cd0f7a46b839f7e6758fd53,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 490964876487218690, guid: 56f0c47e1cd0f7a46b839f7e6758fd53,
         type: 3}
       propertyPath: speed
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 490964876487218690, guid: 56f0c47e1cd0f7a46b839f7e6758fd53,
         type: 3}
@@ -227,7 +237,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466002210}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5a2b5d9908a5b0642929a985443217cd, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
