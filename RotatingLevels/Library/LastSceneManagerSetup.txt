@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Leves/LoopLevel.unity
+- path: Assets/Leves/CircleLevel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
