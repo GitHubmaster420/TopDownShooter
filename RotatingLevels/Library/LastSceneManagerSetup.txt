@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Leves/CircleLevel.unity
+- path: Assets/Leves/levelswag.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

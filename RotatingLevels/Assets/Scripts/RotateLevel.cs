@@ -23,7 +23,7 @@ public class RotateLevel : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
 
         transform.Rotate(new Vector3(1, 0, 0) * verticalInput * rotForwardSpeed * Time.deltaTime, Space.World);
-        transform.Rotate(Vector3.up * horizontalInput * rotSideSpeed * Time.deltaTime, Space.World);
+        transform.Rotate(Vector3.down * horizontalInput * rotSideSpeed * Time.deltaTime, Space.World);
         //transform.RotateAround(player.transform.position, Vector3.up, rotSideSpeed * horizontalInput * Time.deltaTime);
         //transform.RotateAround(player.transform.position, Vector3.right, verticalInput * rotForwardSpeed * Time.deltaTime);
     }
